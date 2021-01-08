@@ -1,10 +1,11 @@
-import './Counter.tsx';
-import './App.css';
-import { useEffect } from 'react';
+import Navbar from './Navbar';
 
 function App() {
 
   return (
+    <div>
+      <Navbar></Navbar>
+    </div>
   );
 }
 
